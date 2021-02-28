@@ -67,7 +67,7 @@ void clicker()
 		{
 			mouse_event(MOUSEEVENTF_RIGHTDOWN, 0, 0, 0, 0);
 			mouse_event(MOUSEEVENTF_RIGHTUP, 0, 0, 0, 0);
-			Sleep(75); //Adjust Speed | (Warning settings this value below 1 WILL cause come crashes. Try at your own risk. THE LOWER THE VALUE THE FASTER)
+			Sleep(1); //Adjust Speed | (Warning settings this value below 1 WILL cause come crashes. Try at your own risk. THE LOWER THE VALUE THE FASTER)
 		}
 		
 	}
